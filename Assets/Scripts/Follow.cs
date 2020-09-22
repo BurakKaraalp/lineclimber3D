@@ -20,7 +20,7 @@ public class Follow : MonoBehaviour
         Screen.orientation = ScreenOrientation.Portrait;
         //Gölgeleri Kapatma
         QualitySettings.shadows = ShadowQuality.Disable;
-        if(PlayerPrefs.GetInt("dieCounter") == 0 )
+        if (PlayerPrefs.GetInt("dieCounter") == 0 )
         {
             PlayerPrefs.SetInt("dieCounter", 0);
         }
